@@ -1,0 +1,245 @@
+2025-11-26 19:46:41,694 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:46:44,521 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:46:44,640 - test_run - INFO - Starting positive login test for: standard user
+2025-11-26 19:46:45,720 - test_run - INFO - Products visible after login: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-11-26 19:46:45,727 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:46:48,007 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:46:49,433 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:46:49,782 - test_run - INFO - Starting negative login test for: locked out user wrong password
+2025-11-26 19:46:50,239 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 19:46:50,241 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:46:52,465 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:46:53,774 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:46:54,230 - test_run - INFO - Starting negative login test for: non existing user
+2025-11-26 19:46:54,710 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 19:46:54,712 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:50:27,962 - test_run - INFO - Starting test_get_single_user_success for user_id=2
+2025-11-26 19:50:28,513 - test_run - INFO - Response status: 401, body: {"error":"Missing API key"}
+2025-11-26 19:50:28,726 - test_run - INFO - Starting test_create_user_success with payload={'name': 'morpheus', 'job': 'leader'}
+2025-11-26 19:50:29,231 - test_run - INFO - Response status: 401, body: {"error":"Missing API key"}
+2025-11-26 19:50:29,254 - test_run - INFO - Starting test_delete_user_no_content for user_id=2
+2025-11-26 19:50:29,544 - test_run - INFO - Response status: 401, body length: 27
+2025-11-26 19:52:13,225 - test_run - INFO - Starting test_get_single_post_success for post_id=1
+2025-11-26 19:52:13,725 - test_run - INFO - Response status: 200, body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-11-26 19:52:13,734 - test_run - INFO - Starting test_create_post_success with payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2025-11-26 19:52:14,300 - test_run - INFO - Response status: 201, body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2025-11-26 19:52:14,302 - test_run - INFO - Starting test_delete_post_success for post_id=1
+2025-11-26 19:52:14,880 - test_run - INFO - Response status: 200, body: {}
+2025-11-26 19:54:14,934 - test_run - INFO - Starting test_get_single_post_success for post_id=1
+2025-11-26 19:54:15,390 - test_run - INFO - Response status: 200, body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-11-26 19:54:15,393 - test_run - INFO - Starting test_create_post_success with payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2025-11-26 19:54:15,956 - test_run - INFO - Response status: 201, body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2025-11-26 19:54:15,959 - test_run - INFO - Starting test_delete_post_success for post_id=1
+2025-11-26 19:54:16,518 - test_run - INFO - Response status: 200, body: {}
+2025-11-26 19:54:16,522 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:54:18,513 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:54:18,748 - test_run - INFO - Starting test_add_product_to_cart
+2025-11-26 19:54:19,924 - test_run - INFO - Products in cart: ['Sauce Labs Backpack']
+2025-11-26 19:54:19,926 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:54:22,188 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:54:23,616 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:54:24,022 - test_run - INFO - Starting test_full_checkout_flow
+2025-11-26 19:54:24,816 - test_run - INFO - Products in cart before checkout: ['Sauce Labs Backpack']
+2025-11-26 19:54:36,468 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:58:28,910 - test_run - INFO - Starting test_get_single_post_success for post_id=1
+2025-11-26 19:58:29,414 - test_run - INFO - Response status: 200, body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-11-26 19:58:29,426 - test_run - INFO - Starting test_create_post_success with payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2025-11-26 19:58:30,008 - test_run - INFO - Response status: 201, body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2025-11-26 19:58:30,011 - test_run - INFO - Starting test_delete_post_success for post_id=1
+2025-11-26 19:58:30,583 - test_run - INFO - Response status: 200, body: {}
+2025-11-26 19:58:30,593 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:58:31,940 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:58:32,419 - test_run - INFO - Starting test_add_product_to_cart
+2025-11-26 19:58:33,328 - test_run - INFO - Products in cart: ['Sauce Labs Backpack']
+2025-11-26 19:58:33,329 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:58:35,580 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:58:37,210 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:58:38,947 - test_run - INFO - Starting test_full_checkout_flow
+2025-11-26 19:58:39,948 - test_run - INFO - Products in cart before checkout: ['Sauce Labs Backpack']
+2025-11-26 19:58:51,599 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:58:53,851 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:58:55,173 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:58:55,555 - test_run - INFO - Starting test_logout_from_inventory
+2025-11-26 19:59:07,543 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:59:11,436 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:59:12,956 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:59:13,443 - test_run - INFO - Starting positive login test for: standard user
+2025-11-26 19:59:14,089 - test_run - INFO - Products visible after login: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-11-26 19:59:14,091 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:59:16,309 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:59:17,699 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:59:17,867 - test_run - INFO - Starting negative login test for: locked out user wrong password
+2025-11-26 19:59:18,791 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 19:59:18,792 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 19:59:22,055 - test_run - INFO - Creating WebDriver instance
+2025-11-26 19:59:23,561 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 19:59:23,900 - test_run - INFO - Starting negative login test for: non existing user
+2025-11-26 19:59:24,359 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 19:59:24,362 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:04:05,988 - test_run - INFO - Starting test_get_single_post_success for post_id=1
+2025-11-26 20:04:06,473 - test_run - INFO - Response status: 200, body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-11-26 20:04:06,487 - test_run - INFO - Starting test_create_post_success with payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2025-11-26 20:04:07,067 - test_run - INFO - Response status: 201, body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2025-11-26 20:04:07,076 - test_run - INFO - Starting test_delete_post_success for post_id=1
+2025-11-26 20:04:07,646 - test_run - INFO - Response status: 200, body: {}
+2025-11-26 20:04:07,654 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:04:09,953 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:04:10,408 - test_run - INFO - Starting test_add_product_to_cart
+2025-11-26 20:04:11,269 - test_run - INFO - Products in cart: ['Sauce Labs Backpack']
+2025-11-26 20:04:11,270 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:04:13,540 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:04:15,607 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:04:16,038 - test_run - INFO - Starting test_logout_from_inventory
+2025-11-26 20:04:28,181 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:04:30,401 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:04:32,865 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:04:33,212 - test_run - INFO - Starting test_full_checkout_flow
+2025-11-26 20:04:34,232 - test_run - INFO - Products in cart before checkout: ['Sauce Labs Backpack']
+2025-11-26 20:04:34,885 - test_run - INFO - Success message: Thank you for your order!
+2025-11-26 20:04:34,886 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:04:37,104 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:04:38,586 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:04:40,508 - test_run - INFO - Starting positive login test for: standard user
+2025-11-26 20:04:41,058 - test_run - INFO - Products visible after login: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-11-26 20:04:41,059 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:04:44,229 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:04:45,644 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:04:46,339 - test_run - INFO - Starting negative login test for: locked out user wrong password
+2025-11-26 20:04:46,812 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 20:04:46,819 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:04:49,264 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:04:51,141 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:04:52,130 - test_run - INFO - Starting negative login test for: non existing user
+2025-11-26 20:04:52,576 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 20:04:52,577 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:07:21,084 - test_run - INFO - Starting test_get_single_post_success for post_id=1
+2025-11-26 20:07:21,555 - test_run - INFO - Response status: 200, body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-11-26 20:07:21,560 - test_run - INFO - Starting test_create_post_success with payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2025-11-26 20:07:21,783 - test_run - INFO - Response status: 201, body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2025-11-26 20:07:21,787 - test_run - INFO - Starting test_delete_post_success for post_id=1
+2025-11-26 20:07:22,351 - test_run - INFO - Response status: 200, body: {}
+2025-11-26 20:07:22,355 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:07:23,836 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:07:23,946 - test_run - INFO - Starting test_add_product_to_cart
+2025-11-26 20:07:25,080 - test_run - INFO - Products in cart: ['Sauce Labs Backpack']
+2025-11-26 20:07:25,081 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:07:27,360 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:07:28,760 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:07:29,132 - test_run - INFO - Starting test_logout_from_inventory
+2025-11-26 20:07:52,428 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:07:54,685 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:07:56,211 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:07:56,748 - test_run - INFO - Starting test_full_checkout_flow
+2025-11-26 20:07:57,680 - test_run - INFO - Products in cart before checkout: ['Sauce Labs Backpack']
+2025-11-26 20:08:19,614 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:08:22,011 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:08:23,687 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:08:24,366 - test_run - INFO - Starting positive login test for: standard user
+2025-11-26 20:08:25,087 - test_run - INFO - Products visible after login: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-11-26 20:08:25,088 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:08:27,276 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:08:28,782 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:08:28,844 - test_run - INFO - Starting negative login test for: locked out user wrong password
+2025-11-26 20:08:29,638 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 20:08:29,639 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:08:33,013 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:08:34,443 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:08:34,891 - test_run - INFO - Starting negative login test for: non existing user
+2025-11-26 20:08:35,415 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 20:08:35,416 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:09:49,291 - test_run - INFO - Starting test_get_single_post_success for post_id=1
+2025-11-26 20:09:49,777 - test_run - INFO - Response status: 200, body: {
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+2025-11-26 20:09:49,788 - test_run - INFO - Starting test_create_post_success with payload={'title': 'foo', 'body': 'bar', 'userId': 1}
+2025-11-26 20:09:50,354 - test_run - INFO - Response status: 201, body: {
+  "title": "foo",
+  "body": "bar",
+  "userId": 1,
+  "id": 101
+}
+2025-11-26 20:09:50,357 - test_run - INFO - Starting test_delete_post_success for post_id=1
+2025-11-26 20:09:50,922 - test_run - INFO - Response status: 200, body: {}
+2025-11-26 20:09:50,928 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:09:52,280 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:09:52,845 - test_run - INFO - Starting test_add_product_to_cart
+2025-11-26 20:09:53,610 - test_run - INFO - Products in cart: ['Sauce Labs Backpack']
+2025-11-26 20:09:53,611 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:09:55,856 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:09:57,243 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:09:57,650 - test_run - INFO - Starting test_logout_from_inventory
+2025-11-26 20:09:58,935 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:10:01,071 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:10:02,538 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:10:02,899 - test_run - INFO - Starting test_full_checkout_flow
+2025-11-26 20:10:03,627 - test_run - INFO - Products in cart before checkout: ['Sauce Labs Backpack']
+2025-11-26 20:10:04,264 - test_run - INFO - Success message: Thank you for your order!
+2025-11-26 20:10:04,265 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:10:06,440 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:10:07,740 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:10:08,146 - test_run - INFO - Starting positive login test for: standard user
+2025-11-26 20:10:08,710 - test_run - INFO - Products visible after login: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-11-26 20:10:08,712 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:10:10,888 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:10:12,261 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:10:12,912 - test_run - INFO - Starting negative login test for: locked out user wrong password
+2025-11-26 20:10:13,350 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 20:10:13,351 - test_run - INFO - Quitting WebDriver instance
+2025-11-26 20:10:15,523 - test_run - INFO - Creating WebDriver instance
+2025-11-26 20:10:16,804 - test_run - INFO - Opening base URL: https://www.saucedemo.com/
+2025-11-26 20:10:17,234 - test_run - INFO - Starting negative login test for: non existing user
+2025-11-26 20:10:17,672 - test_run - INFO - Error message displayed: Epic sadface: Username and password do not match any user in this service
+2025-11-26 20:10:17,673 - test_run - INFO - Quitting WebDriver instance

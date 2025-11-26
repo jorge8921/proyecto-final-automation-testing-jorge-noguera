@@ -1,0 +1,21 @@
+{
+  "valid_logins": [
+    {
+      "description": "standard user",
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  ],
+  "invalid_logins": [
+    {
+      "description": "locked out user wrong password",
+      "username": "locked_out_user",
+      "password": "wrong_password"
+    },
+    {
+      "description": "non existing user",
+      "username": "invalid_user",
+      "password": "secret_sauce"
+    }
+  ]
+}

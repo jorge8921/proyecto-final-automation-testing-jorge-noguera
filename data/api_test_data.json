@@ -1,0 +1,9 @@
+{
+  "existing_post_id": 1,
+  "new_post": {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+  },
+  "post_to_delete_id": 1
+}
